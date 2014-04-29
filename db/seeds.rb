@@ -1,3 +1,8 @@
+ingredients = Ingredient.create([
+  {name: "butter", brand: "Gbloop", image:"www.butter.com"},
 
+  {name: "cheetos", brand: "gbhjkn", image:"www.cheetos.com"},
 
-# TODO: Create your own seed data!
+  {name: "nurmm", brand: "tgfd", image:"www.nummies.com"}
+])
+

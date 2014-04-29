@@ -11,7 +11,9 @@
     <p><%= @recipe.course %>
     <p><%= @recipe.cooktime %>
     <p><%= @recipe.servingsize %>
-    <p><%= @recipe.instructions %>
+    <p><% @recipe.ingredients.each do |i| %>
+      <%= i[:name] %>
+      <% end %>
   </div>
 
   <!-- TODO: Display the ingredients in the show page -->
